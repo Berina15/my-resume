@@ -1,0 +1,169 @@
+<!-- Prepravljala sam kod ispočetka, tj. koristila sam dosta i iz prošlog koda, ali sam pojednostavila.
+    (Iako to nije bilo jednostavno učiniti :'D). Te sam dodala link na lokaciju, pozadinsku sliku i još neke detalje koje ću vjerovatno opet mijenjati.-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.column {
+      float: left;
+      width: 27%;
+      padding: 20px;
+      height: 150px;
+      margin: 20px;
+      background-color: #bbb;
+      opacity: 0.8;
+    }
+.photo{
+    float: left;
+      width: 33.33%;
+      padding: 20px;
+      opacity: 0.1;
+      transition: 0.3s;
+      border: 3;
+}
+
+.photo:hover {
+    opacity: 1.0;
+}
+
+
+
+.link {
+    text-align: left;
+}
+
+
+.description {
+    text-align: left; 
+    background-color:rgb(231, 229, 229, 0.3);
+    }
+
+
+
+body {
+
+    background-image:  url('pozadina.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  
+}
+
+    </style>
+<body>
+
+
+
+<div class="column" style="background-color:  #aaa" >
+        <h1 style="color: black">MRKONJIĆ <br>
+          BERINA</h1>
+        </div>
+
+
+<div class= column>
+<ul> <img src="phone.png" width="35" height="35" alt="phone"> <b>Phone</b>
+  <li> (+387)603026646 </li>
+  <br> <img src="mail.png" width="35" height="35" alt="mail"> <b>Mail</b>
+  <li>mrkonjicberina@gmail.com </li>
+</ul>
+</div>
+
+
+<div class="column">
+
+<ul><img src="location.png" width="35" height="35" alt="location"> <b>Location</b>
+
+  <li><a class="active" href="https://www.google.com/maps/place/Zlatnih+ljiljana+23,+Zavidovi%C4%87i/
+    @44.4386677,18.1390948,17z/data=!3m1!4b1!4m5!3m4!1s0x475eeb2bfe074771:0xcaf5404220a43f36!8m2!3d44.4386639!4d18.1412835" > 
+    Ulica Zlatnih ljiljana, 23, 72220, Zavidovići </a></li> 
+  <br>
+  <li><a class="active" href="https://www.google.com/maps/place/Bosne+Srebrene,+Tuzla+75000/
+    @44.5378378,18.6620357,19.54z/data=!4m5!3m4!1s0x475ead11a60934a5:0x6d84b14a00312525!8m2!3d44.5363076!4d18.6609567" > 
+    Bosne Srebrene, Lamela 1, 75000, Tuzla </a></li> 
+  <br> Bosnia and Herzegovina
+</ul>
+</div>
+
+
+<div class="photo">
+
+<img src="Berina.jpeg" width="300" height="420" alt="Berina">
+
+</div>
+
+
+
+<div class= "link"> 
+      <ul> <br><br>
+       <h3> <li><p><a href="#aboutme">ABOUT ME</a></p></li>
+        <li><p><a href="#education">EDUCATION</a></p></li>
+        <li><p><a href="#course">COURSE</a></p></li> 
+        <li><p><a href="#languageskills">LANGUAGE SKILLS</a></p></li>
+        <li><p><a href="#handi">HOBIES AND INTERESTS</a></p></li> </h3> 
+        <br><br><br><br>
+      </div>
+
+  
+  
+
+        <h2>Signature:</h2>
+        <img src="berinaa.jpeg" height="100" width="300" style="opacity: 0.7;">
+
+          
+          <br><br><br>
+    </ul>
+
+
+
+<div class="description">
+
+    <h2 id="aboutme">ABOUT ME</h2>
+    <p id="aboutme" >I am a third-year computer science student looking for opportunities to start career in softver engineering. My
+        interests are web and mobile development.</p>
+
+
+        <h2 id="#education">EDUCATION</h2>
+        <p id="education" >
+            <p style="color: rgb(20, 53, 114)"> OCT 2019 - CURRENT </p>
+            <b style="color: #021e2c"> BACHELOR OF ELECTRICAL ENGINEERING AND COMPUTING - </b>International Business
+            Information Academy Tuzla<br><br>
+      
+            <b style=" color : #001c2b">Field(s) of study</b>
+            <ul>
+              <li>Computer science</li>
+            </ul>
+            ECTS | 120/240 |<a href="https://ipi-akademija.ba/"> https://ipi-akademija.ba/ </a><br><br>
+            I am active member of Students Club at my college. </p>
+                        
+
+    <p style="color: rgb(20, 53, 114)">SEP 2015 - JUN 2019</p>
+    <b style="color: #021e2c">HIGH SCHOOL GRADUATE -</b> Electrotechnical school<br><br>
+    <b style=" color : #001c2b">Field(s) of study</b>
+    <ul><li>Computer technology and automation</li></ul>  
+
+
+    <h2 id="course">COURSE</h2>
+    <p id="course" >TSI - Tuzla Summer Institute 2021</p>
+
+
+    <h2 id="languageskills">LANGUAGE SKILLS</h2>
+    <p id="languageskills" ><span style="color: #021e2c">Native language: </span> <b> BOSNIAN </b></p>
+    <b>ENGLISH - A2</b>
+
+
+    <h2 id="handi">HOBIES AND INTESEST</h2>
+    <p id="handi" ><b>Reading <br>
+        Travel
+    </b></p>
+
+</div>
+
+<!-- use the id attribute to create a bookmark
+add a link to the bookmark from within the same page -->
+
+
+
+
+</body>
+</html>
